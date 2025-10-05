@@ -325,10 +325,10 @@ ol {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  min-width: 192px;
   flex-grow: 1;
   gap: 6px;
   text-indent: 2px;
+  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -352,7 +352,6 @@ ol {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   line-clamp: 4;
-  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
